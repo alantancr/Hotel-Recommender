@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_e7f1e4469d3c4b23bf7fe14383095d88 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+    <link rel="stylesheet" href="https://rawcdn.githack.com/marslan390/BeautifyMarker/master/leaflet-beautify-marker-icon.css"/>
+    <script src="https://rawcdn.githack.com/marslan390/BeautifyMarker/master/leaflet-beautify-marker-icon.js"></script>
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_e7f1e4469d3c4b23bf7fe14383095d88" ></div>
+        
+</body>
+<script>    
+    
+            var map_e7f1e4469d3c4b23bf7fe14383095d88 = L.map(
+                "map_e7f1e4469d3c4b23bf7fe14383095d88",
+                {
+                    center: [48.8566969, 2.3514616],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 13,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_e9f97adc7da64a80bd4cc183621e1616 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_e7f1e4469d3c4b23bf7fe14383095d88);
+        
+    
+            var tile_layer_9f322f7a10474e5c810b326b0b503c0a = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_e7f1e4469d3c4b23bf7fe14383095d88);
+        
+    
+            var marker_6ecb4c45e03c42a3ba5553d009201417 = L.marker(
+                [48.8637503, 2.3320406000000005],
+                {}
+            ).addTo(map_e7f1e4469d3c4b23bf7fe14383095d88);
+        
+    
+            var beautify_icon_e5ece552e6664eb8adf6430a82a20a2c = new L.BeautifyIcon.icon(
+                {"backgroundColor": "#FFF", "borderColor": "blue", "borderWidth": 0.5, "icon": "bus", "innerIconStyle": "margin-top:0px;", "isAlphaNumericIcon": true, "spin": false, "text": 1, "textColor": "red"}
+            )
+            marker_6ecb4c45e03c42a3ba5553d009201417.setIcon(beautify_icon_e5ece552e6664eb8adf6430a82a20a2c);
+        
+    
+        var popup_c080cf68dd384477bdb18267c15017ed = L.popup({"maxWidth": "100%"});
+
+        
+            var html_dc4e2bd0d9054276935da335113110d2 = $(`<div id="html_dc4e2bd0d9054276935da335113110d2" style="width: 100.0%; height: 100.0%;">Hotel Regina</div>`)[0];
+            popup_c080cf68dd384477bdb18267c15017ed.setContent(html_dc4e2bd0d9054276935da335113110d2);
+        
+
+        marker_6ecb4c45e03c42a3ba5553d009201417.bindPopup(popup_c080cf68dd384477bdb18267c15017ed)
+        ;
+
+        
+    
+    
+            marker_6ecb4c45e03c42a3ba5553d009201417.bindTooltip(
+                `<div>
+                     Hotel Regina
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a63622339a754cb4920f41dcdf4221bd = L.marker(
+                [48.8758981, 2.3590504],
+                {}
+            ).addTo(map_e7f1e4469d3c4b23bf7fe14383095d88);
+        
+    
+            var beautify_icon_ef317b3b8fec4ba1a78acabdc8bbffe1 = new L.BeautifyIcon.icon(
+                {"backgroundColor": "#FFF", "borderColor": "blue", "borderWidth": 0.5, "icon": "bus", "innerIconStyle": "margin-top:0px;", "isAlphaNumericIcon": true, "spin": false, "text": 2, "textColor": "red"}
+            )
+            marker_a63622339a754cb4920f41dcdf4221bd.setIcon(beautify_icon_ef317b3b8fec4ba1a78acabdc8bbffe1);
+        
+    
+        var popup_74835d474527428ca7e75e1e3a056eb9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_32721760f0c74c9da59c864932d93790 = $(`<div id="html_32721760f0c74c9da59c864932d93790" style="width: 100.0%; height: 100.0%;">Holiday Inn Paris Gare de l Est</div>`)[0];
+            popup_74835d474527428ca7e75e1e3a056eb9.setContent(html_32721760f0c74c9da59c864932d93790);
+        
+
+        marker_a63622339a754cb4920f41dcdf4221bd.bindPopup(popup_74835d474527428ca7e75e1e3a056eb9)
+        ;
+
+        
+    
+    
+            marker_a63622339a754cb4920f41dcdf4221bd.bindTooltip(
+                `<div>
+                     Holiday Inn Paris Gare de l Est
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_fdcff1ede7154fb19b4d40cc14b469e8 = L.marker(
+                [48.872174, 2.328075],
+                {}
+            ).addTo(map_e7f1e4469d3c4b23bf7fe14383095d88);
+        
+    
+            var beautify_icon_e5d795ceeeac49f393b268ec957f1cc7 = new L.BeautifyIcon.icon(
+                {"backgroundColor": "#FFF", "borderColor": "blue", "borderWidth": 0.5, "icon": "bus", "innerIconStyle": "margin-top:0px;", "isAlphaNumericIcon": true, "spin": false, "text": 3, "textColor": "red"}
+            )
+            marker_fdcff1ede7154fb19b4d40cc14b469e8.setIcon(beautify_icon_e5d795ceeeac49f393b268ec957f1cc7);
+        
+    
+        var popup_b096cc8d5c40492bb7cb18b3fd06b539 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_94fec9235de146a4b5d92fbe02452160 = $(`<div id="html_94fec9235de146a4b5d92fbe02452160" style="width: 100.0%; height: 100.0%;">Hotel Saint Petersbourg Opera</div>`)[0];
+            popup_b096cc8d5c40492bb7cb18b3fd06b539.setContent(html_94fec9235de146a4b5d92fbe02452160);
+        
+
+        marker_fdcff1ede7154fb19b4d40cc14b469e8.bindPopup(popup_b096cc8d5c40492bb7cb18b3fd06b539)
+        ;
+
+        
+    
+    
+            marker_fdcff1ede7154fb19b4d40cc14b469e8.bindTooltip(
+                `<div>
+                     Hotel Saint Petersbourg Opera
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d43d3252b75f462aaecf01c0ba66021a = L.marker(
+                [48.8753359, 2.3414617],
+                {}
+            ).addTo(map_e7f1e4469d3c4b23bf7fe14383095d88);
+        
+    
+            var beautify_icon_a49887235bac4931acb37a3a098f2a1d = new L.BeautifyIcon.icon(
+                {"backgroundColor": "#FFF", "borderColor": "blue", "borderWidth": 0.5, "icon": "bus", "innerIconStyle": "margin-top:0px;", "isAlphaNumericIcon": true, "spin": false, "text": 4, "textColor": "red"}
+            )
+            marker_d43d3252b75f462aaecf01c0ba66021a.setIcon(beautify_icon_a49887235bac4931acb37a3a098f2a1d);
+        
+    
+        var popup_82251f75f0804fb7b519164f375e95e9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2b70f58660484debae7e3f35222f5da3 = $(`<div id="html_2b70f58660484debae7e3f35222f5da3" style="width: 100.0%; height: 100.0%;">Best Western Premier Op ra Faubourg Ex Hotel Jules </div>`)[0];
+            popup_82251f75f0804fb7b519164f375e95e9.setContent(html_2b70f58660484debae7e3f35222f5da3);
+        
+
+        marker_d43d3252b75f462aaecf01c0ba66021a.bindPopup(popup_82251f75f0804fb7b519164f375e95e9)
+        ;
+
+        
+    
+    
+            marker_d43d3252b75f462aaecf01c0ba66021a.bindTooltip(
+                `<div>
+                     Best Western Premier Op ra Faubourg Ex Hotel Jules 
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_25de041fe3124d6db2a8071d466774b0 = L.marker(
+                [48.8553117, 2.3254627999999995],
+                {}
+            ).addTo(map_e7f1e4469d3c4b23bf7fe14383095d88);
+        
+    
+            var beautify_icon_70b25594b1ad42e9b79db611e5919aa1 = new L.BeautifyIcon.icon(
+                {"backgroundColor": "#FFF", "borderColor": "blue", "borderWidth": 0.5, "icon": "bus", "innerIconStyle": "margin-top:0px;", "isAlphaNumericIcon": true, "spin": false, "text": 5, "textColor": "red"}
+            )
+            marker_25de041fe3124d6db2a8071d466774b0.setIcon(beautify_icon_70b25594b1ad42e9b79db611e5919aa1);
+        
+    
+        var popup_69f504d7b69946048b8e6f063e3e4f52 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_11bbaa717f7245509b9aa354051430c7 = $(`<div id="html_11bbaa717f7245509b9aa354051430c7" style="width: 100.0%; height: 100.0%;">K K Hotel Cayr Saint Germain des Pr s</div>`)[0];
+            popup_69f504d7b69946048b8e6f063e3e4f52.setContent(html_11bbaa717f7245509b9aa354051430c7);
+        
+
+        marker_25de041fe3124d6db2a8071d466774b0.bindPopup(popup_69f504d7b69946048b8e6f063e3e4f52)
+        ;
+
+        
+    
+    
+            marker_25de041fe3124d6db2a8071d466774b0.bindTooltip(
+                `<div>
+                     K K Hotel Cayr Saint Germain des Pr s
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4431c24d55704db29f0b1fe3c302ade5 = L.marker(
+                [48.8642689, 2.3308179],
+                {}
+            ).addTo(map_e7f1e4469d3c4b23bf7fe14383095d88);
+        
+    
+            var beautify_icon_e5ad355c83604414a6d80d3ec90e74c1 = new L.BeautifyIcon.icon(
+                {"backgroundColor": "#FFF", "borderColor": "blue", "borderWidth": 0.5, "icon": "bus", "innerIconStyle": "margin-top:0px;", "isAlphaNumericIcon": true, "spin": false, "text": 6, "textColor": "red"}
+            )
+            marker_4431c24d55704db29f0b1fe3c302ade5.setIcon(beautify_icon_e5ad355c83604414a6d80d3ec90e74c1);
+        
+    
+        var popup_048c461fdf9746aebfe132e3cf7d3600 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3d49664a5c66491d88a11afa8dbd707a = $(`<div id="html_3d49664a5c66491d88a11afa8dbd707a" style="width: 100.0%; height: 100.0%;">Saint James Albany Paris Hotel Spa</div>`)[0];
+            popup_048c461fdf9746aebfe132e3cf7d3600.setContent(html_3d49664a5c66491d88a11afa8dbd707a);
+        
+
+        marker_4431c24d55704db29f0b1fe3c302ade5.bindPopup(popup_048c461fdf9746aebfe132e3cf7d3600)
+        ;
+
+        
+    
+    
+            marker_4431c24d55704db29f0b1fe3c302ade5.bindTooltip(
+                `<div>
+                     Saint James Albany Paris Hotel Spa
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_569545ee676b450b876196f232272939 = L.marker(
+                [48.8675674, 2.3539896000000002],
+                {}
+            ).addTo(map_e7f1e4469d3c4b23bf7fe14383095d88);
+        
+    
+            var beautify_icon_977b97221b184849aa2d64a5a5fa184b = new L.BeautifyIcon.icon(
+                {"backgroundColor": "#FFF", "borderColor": "blue", "borderWidth": 0.5, "icon": "bus", "innerIconStyle": "margin-top:0px;", "isAlphaNumericIcon": true, "spin": false, "text": 7, "textColor": "red"}
+            )
+            marker_569545ee676b450b876196f232272939.setIcon(beautify_icon_977b97221b184849aa2d64a5a5fa184b);
+        
+    
+        var popup_d65310b3554b4010ba1939afcdacce06 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_70d61902b73a496a81f5211ec64454b8 = $(`<div id="html_70d61902b73a496a81f5211ec64454b8" style="width: 100.0%; height: 100.0%;">Little Palace Hotel</div>`)[0];
+            popup_d65310b3554b4010ba1939afcdacce06.setContent(html_70d61902b73a496a81f5211ec64454b8);
+        
+
+        marker_569545ee676b450b876196f232272939.bindPopup(popup_d65310b3554b4010ba1939afcdacce06)
+        ;
+
+        
+    
+    
+            marker_569545ee676b450b876196f232272939.bindTooltip(
+                `<div>
+                     Little Palace Hotel
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_48deb87e82a94cd8b898f73552a75b86 = L.marker(
+                [48.855263, 2.3305901],
+                {}
+            ).addTo(map_e7f1e4469d3c4b23bf7fe14383095d88);
+        
+    
+            var beautify_icon_50b282d42534453e885041fc20b213a0 = new L.BeautifyIcon.icon(
+                {"backgroundColor": "#FFF", "borderColor": "blue", "borderWidth": 0.5, "icon": "bus", "innerIconStyle": "margin-top:0px;", "isAlphaNumericIcon": true, "spin": false, "text": 8, "textColor": "red"}
+            )
+            marker_48deb87e82a94cd8b898f73552a75b86.setIcon(beautify_icon_50b282d42534453e885041fc20b213a0);
+        
+    
+        var popup_2fd2ab0aee8f47d39fb820ead47c15c4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e5be0f68657a42349f5762585dc629d5 = $(`<div id="html_e5be0f68657a42349f5762585dc629d5" style="width: 100.0%; height: 100.0%;">Acad mie Hotel Saint Germain</div>`)[0];
+            popup_2fd2ab0aee8f47d39fb820ead47c15c4.setContent(html_e5be0f68657a42349f5762585dc629d5);
+        
+
+        marker_48deb87e82a94cd8b898f73552a75b86.bindPopup(popup_2fd2ab0aee8f47d39fb820ead47c15c4)
+        ;
+
+        
+    
+    
+            marker_48deb87e82a94cd8b898f73552a75b86.bindTooltip(
+                `<div>
+                     Acad mie Hotel Saint Germain
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_52aaefdd754247ed84603d6e588db0da = L.marker(
+                [48.8691686, 2.3337818],
+                {}
+            ).addTo(map_e7f1e4469d3c4b23bf7fe14383095d88);
+        
+    
+            var beautify_icon_dd04b106dc6f477c8a6cb33086be44b1 = new L.BeautifyIcon.icon(
+                {"backgroundColor": "#FFF", "borderColor": "blue", "borderWidth": 0.5, "icon": "bus", "innerIconStyle": "margin-top:0px;", "isAlphaNumericIcon": true, "spin": false, "text": 9, "textColor": "red"}
+            )
+            marker_52aaefdd754247ed84603d6e588db0da.setIcon(beautify_icon_dd04b106dc6f477c8a6cb33086be44b1);
+        
+    
+        var popup_3f28d24a79a9494c994e97ece12e35af = L.popup({"maxWidth": "100%"});
+
+        
+            var html_126c3a306cc94a83b6169a49e8b403b5 = $(`<div id="html_126c3a306cc94a83b6169a49e8b403b5" style="width: 100.0%; height: 100.0%;">Hotel Horset Op ra Best Western Premier Collection</div>`)[0];
+            popup_3f28d24a79a9494c994e97ece12e35af.setContent(html_126c3a306cc94a83b6169a49e8b403b5);
+        
+
+        marker_52aaefdd754247ed84603d6e588db0da.bindPopup(popup_3f28d24a79a9494c994e97ece12e35af)
+        ;
+
+        
+    
+    
+            marker_52aaefdd754247ed84603d6e588db0da.bindTooltip(
+                `<div>
+                     Hotel Horset Op ra Best Western Premier Collection
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b47d3ccfd5b14727b962a7d0ceebe57b = L.marker(
+                [48.8607299, 2.3465326],
+                {}
+            ).addTo(map_e7f1e4469d3c4b23bf7fe14383095d88);
+        
+    
+            var beautify_icon_637548dcd5b14dcba58a45ba8ec42b00 = new L.BeautifyIcon.icon(
+                {"backgroundColor": "#FFF", "borderColor": "blue", "borderWidth": 0.5, "icon": "bus", "innerIconStyle": "margin-top:0px;", "isAlphaNumericIcon": true, "spin": false, "text": 10, "textColor": "red"}
+            )
+            marker_b47d3ccfd5b14727b962a7d0ceebe57b.setIcon(beautify_icon_637548dcd5b14dcba58a45ba8ec42b00);
+        
+    
+        var popup_9a705de17fe5438daac812dd4367d53b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7e003282581742ddb8f0a4106db23688 = $(`<div id="html_7e003282581742ddb8f0a4106db23688" style="width: 100.0%; height: 100.0%;">Novotel Paris Les Halles</div>`)[0];
+            popup_9a705de17fe5438daac812dd4367d53b.setContent(html_7e003282581742ddb8f0a4106db23688);
+        
+
+        marker_b47d3ccfd5b14727b962a7d0ceebe57b.bindPopup(popup_9a705de17fe5438daac812dd4367d53b)
+        ;
+
+        
+    
+    
+            marker_b47d3ccfd5b14727b962a7d0ceebe57b.bindTooltip(
+                `<div>
+                     Novotel Paris Les Halles
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>

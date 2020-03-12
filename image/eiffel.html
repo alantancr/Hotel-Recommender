@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_879d6142fbb542ddbe2779e1fe70796e {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_879d6142fbb542ddbe2779e1fe70796e" ></div>
+        
+</body>
+<script>    
+    
+            var map_879d6142fbb542ddbe2779e1fe70796e = L.map(
+                "map_879d6142fbb542ddbe2779e1fe70796e",
+                {
+                    center: [48.8475112, 2.3022197999999996],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 12,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_6a022761e6824ab9a8b2c303fcb38873 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_879d6142fbb542ddbe2779e1fe70796e);
+        
+    
+            var tile_layer_952262b5ae704de4a6701391032fbec8 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_879d6142fbb542ddbe2779e1fe70796e);
+        
+    
+            var marker_89555f86090f4df581a6eb5b142754da = L.marker(
+                [48.8475112, 2.3022197999999996],
+                {}
+            ).addTo(map_879d6142fbb542ddbe2779e1fe70796e);
+        
+    
+            var icon_38412f06919946dfa57c89171e29f88f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_89555f86090f4df581a6eb5b142754da.setIcon(icon_38412f06919946dfa57c89171e29f88f);
+        
+    
+            marker_89555f86090f4df581a6eb5b142754da.bindTooltip(
+                `<div>
+                     First Hotel Paris Tour Eiffel
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a008ebad88654a1093cc71ffd79ea344 = L.marker(
+                [48.852842700000004, 2.3422256],
+                {}
+            ).addTo(map_879d6142fbb542ddbe2779e1fe70796e);
+        
+    
+            var icon_e3ce019b421348d3b75932e3e0e9fcc2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_a008ebad88654a1093cc71ffd79ea344.setIcon(icon_e3ce019b421348d3b75932e3e0e9fcc2);
+        
+    
+            marker_a008ebad88654a1093cc71ffd79ea344.bindTooltip(
+                `<div>
+                     Holiday Inn Paris Notre Dame
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_169061501b6e4395bde6bbbdff74aa3f = L.marker(
+                [48.8649306, 2.3290843999999997],
+                {}
+            ).addTo(map_879d6142fbb542ddbe2779e1fe70796e);
+        
+    
+            var icon_23047d2f118f414bbe6df6aea055f163 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_169061501b6e4395bde6bbbdff74aa3f.setIcon(icon_23047d2f118f414bbe6df6aea055f163);
+        
+    
+            marker_169061501b6e4395bde6bbbdff74aa3f.bindTooltip(
+                `<div>
+                     Hotel Brighton Esprit de France
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f8eed4ae822146019b45f0ab1e88db7d = L.marker(
+                [48.8691758, 2.3205807000000003],
+                {}
+            ).addTo(map_879d6142fbb542ddbe2779e1fe70796e);
+        
+    
+            var icon_4959a709388e4e56b05d919299ace876 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_f8eed4ae822146019b45f0ab1e88db7d.setIcon(icon_4959a709388e4e56b05d919299ace876);
+        
+    
+            marker_f8eed4ae822146019b45f0ab1e88db7d.bindTooltip(
+                `<div>
+                     Hotel De Castiglione
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2784bbef2ebf45f999c9dafea743b92b = L.marker(
+                [48.850205200000005, 2.289043],
+                {}
+            ).addTo(map_879d6142fbb542ddbe2779e1fe70796e);
+        
+    
+            var icon_e56c596c256747afa0f0379a462e6e4a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_2784bbef2ebf45f999c9dafea743b92b.setIcon(icon_e56c596c256747afa0f0379a462e6e4a);
+        
+    
+            marker_2784bbef2ebf45f999c9dafea743b92b.bindTooltip(
+                `<div>
+                     Hotel Gustave
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1ff334b052054e789747e19ec53ee184 = L.marker(
+                [48.8685093, 2.3067895],
+                {}
+            ).addTo(map_879d6142fbb542ddbe2779e1fe70796e);
+        
+    
+            var icon_fb561242075a4c87875bc58737d16fca = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_1ff334b052054e789747e19ec53ee184.setIcon(icon_fb561242075a4c87875bc58737d16fca);
+        
+    
+            marker_1ff334b052054e789747e19ec53ee184.bindTooltip(
+                `<div>
+                     Hotel Marignan Champs Elys es
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c1f0a8eed7d84f55b0ca9f4f8236bdfc = L.marker(
+                [48.8802782, 2.2843852000000004],
+                {}
+            ).addTo(map_879d6142fbb542ddbe2779e1fe70796e);
+        
+    
+            var icon_01fb79daa1f54ee09f9f8414cd98ca6b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_c1f0a8eed7d84f55b0ca9f4f8236bdfc.setIcon(icon_01fb79daa1f54ee09f9f8414cd98ca6b);
+        
+    
+            marker_c1f0a8eed7d84f55b0ca9f4f8236bdfc.bindTooltip(
+                `<div>
+                     Hyatt Regency Paris Etoile
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ffdb980790b14391ba7a37e5a52703e4 = L.marker(
+                [48.8656973, 2.2829776],
+                {}
+            ).addTo(map_879d6142fbb542ddbe2779e1fe70796e);
+        
+    
+            var icon_0db4a8ccafa342d2b34c564e557ccb0a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_ffdb980790b14391ba7a37e5a52703e4.setIcon(icon_0db4a8ccafa342d2b34c564e557ccb0a);
+        
+    
+            marker_ffdb980790b14391ba7a37e5a52703e4.bindTooltip(
+                `<div>
+                     Le Metropolitan a Tribute Portfolio Hotel
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_930c1077e00a4935a7d128f3fbc6a77f = L.marker(
+                [48.8494851, 2.2955063],
+                {}
+            ).addTo(map_879d6142fbb542ddbe2779e1fe70796e);
+        
+    
+            var icon_b1e65c0b703749ad80fdeef1d04a6063 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_930c1077e00a4935a7d128f3fbc6a77f.setIcon(icon_b1e65c0b703749ad80fdeef1d04a6063);
+        
+    
+            marker_930c1077e00a4935a7d128f3fbc6a77f.bindTooltip(
+                `<div>
+                     Le Parisis Paris Tour Eiffel
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e1212546bfa64ff9b24d703579f8a9c9 = L.marker(
+                [48.8920485, 2.3023791],
+                {}
+            ).addTo(map_879d6142fbb542ddbe2779e1fe70796e);
+        
+    
+            var icon_47b17f26829e4a998aa30b4135615549 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_e1212546bfa64ff9b24d703579f8a9c9.setIcon(icon_47b17f26829e4a998aa30b4135615549);
+        
+    
+            marker_e1212546bfa64ff9b24d703579f8a9c9.bindTooltip(
+                `<div>
+                     Novotel Paris 17
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_58d8c0dbd88840c6913bb14f503f815a = L.marker(
+                [48.8399018, 2.3031011],
+                {}
+            ).addTo(map_879d6142fbb542ddbe2779e1fe70796e);
+        
+    
+            var icon_fbf9032806cb49a094f96cb8a51b4b1e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_58d8c0dbd88840c6913bb14f503f815a.setIcon(icon_fbf9032806cb49a094f96cb8a51b4b1e);
+        
+    
+            marker_58d8c0dbd88840c6913bb14f503f815a.bindTooltip(
+                `<div>
+                     Novotel Paris Vaugirard Montparnasse
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d2c886d0422d4af480e6764511f5ca24 = L.marker(
+                [48.8555664, 2.2926243],
+                {}
+            ).addTo(map_879d6142fbb542ddbe2779e1fe70796e);
+        
+    
+            var icon_12242628151840eb9088a34d5db15f57 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_d2c886d0422d4af480e6764511f5ca24.setIcon(icon_12242628151840eb9088a34d5db15f57);
+        
+    
+            marker_d2c886d0422d4af480e6764511f5ca24.bindTooltip(
+                `<div>
+                     Pullman Paris Tour Eiffel
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2e1607ce945d4404b264a3e461e9a02f = L.marker(
+                [48.8772093, 2.2968266],
+                {}
+            ).addTo(map_879d6142fbb542ddbe2779e1fe70796e);
+        
+    
+            var icon_eb0435cbab664ffc9680d94f179319b1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_2e1607ce945d4404b264a3e461e9a02f.setIcon(icon_eb0435cbab664ffc9680d94f179319b1);
+        
+    
+            marker_2e1607ce945d4404b264a3e461e9a02f.bindTooltip(
+                `<div>
+                     Renaissance Paris Arc de Triomphe Hotel
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2b8fc40b67b04449a39ffbc9e093185b = L.marker(
+                [48.8637135, 2.2934759],
+                {}
+            ).addTo(map_879d6142fbb542ddbe2779e1fe70796e);
+        
+    
+            var icon_8492fc1650cb411d86450c32dfcd8e3a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_2b8fc40b67b04449a39ffbc9e093185b.setIcon(icon_8492fc1650cb411d86450c32dfcd8e3a);
+        
+    
+            marker_2b8fc40b67b04449a39ffbc9e093185b.bindTooltip(
+                `<div>
+                     Shangri La Hotel Paris
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>

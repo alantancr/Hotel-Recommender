@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_122752ec43e8426bbbc50626e53ddc6f {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_122752ec43e8426bbbc50626e53ddc6f" ></div>
+        
+</body>
+<script>    
+    
+            var map_122752ec43e8426bbbc50626e53ddc6f = L.map(
+                "map_122752ec43e8426bbbc50626e53ddc6f",
+                {
+                    center: [51.5083719, 0.035576800000000006],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 12,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_8a3c91eef2dd4c259be933a99747063e = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_122752ec43e8426bbbc50626e53ddc6f);
+        
+    
+            var tile_layer_23e0c39a593d4308b4202b2751b55b45 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_122752ec43e8426bbbc50626e53ddc6f);
+        
+    
+            var marker_4fd375697e9b45108a8c6ce0377b97d1 = L.marker(
+                [51.5083719, 0.035576800000000006],
+                {}
+            ).addTo(map_122752ec43e8426bbbc50626e53ddc6f);
+        
+    
+            var icon_ee82167994d9482fac6e7c99cf355856 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_4fd375697e9b45108a8c6ce0377b97d1.setIcon(icon_ee82167994d9482fac6e7c99cf355856);
+        
+    
+            marker_4fd375697e9b45108a8c6ce0377b97d1.bindTooltip(
+                `<div>
+                     Aloft London Excel
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_39cdacd2eb55471089c831548a9e8105 = L.marker(
+                [51.4689559, -0.1787256],
+                {}
+            ).addTo(map_122752ec43e8426bbbc50626e53ddc6f);
+        
+    
+            var icon_045862610e284ee0b56eacf6d0571604 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_39cdacd2eb55471089c831548a9e8105.setIcon(icon_045862610e284ee0b56eacf6d0571604);
+        
+    
+            marker_39cdacd2eb55471089c831548a9e8105.bindTooltip(
+                `<div>
+                     Crowne Plaza London Battersea
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_60193170475c4b6497c90bb6fd5f6660 = L.marker(
+                [52.367877899999996, 4.8948936],
+                {}
+            ).addTo(map_122752ec43e8426bbbc50626e53ddc6f);
+        
+    
+            var icon_e261f454b4734d2093d2e16329408caf = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_60193170475c4b6497c90bb6fd5f6660.setIcon(icon_e261f454b4734d2093d2e16329408caf);
+        
+    
+            marker_60193170475c4b6497c90bb6fd5f6660.bindTooltip(
+                `<div>
+                     De L Europe Amsterdam
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b7f72e4d83634914851542159dfd3822 = L.marker(
+                [52.4001813, 4.893665299999999],
+                {}
+            ).addTo(map_122752ec43e8426bbbc50626e53ddc6f);
+        
+    
+            var icon_74ccb1a8eff14202bd093a9c122114ca = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_b7f72e4d83634914851542159dfd3822.setIcon(icon_74ccb1a8eff14202bd093a9c122114ca);
+        
+    
+            marker_b7f72e4d83634914851542159dfd3822.bindTooltip(
+                `<div>
+                     DoubleTree by Hilton Hotel Amsterdam NDSM Wharf
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4fd7b73f2c6e40ffb46c751e0e07ce5a = L.marker(
+                [51.5043483, -0.0334436],
+                {}
+            ).addTo(map_122752ec43e8426bbbc50626e53ddc6f);
+        
+    
+            var icon_da1a5a3c13e048c7a7716be59ad47eb3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_4fd7b73f2c6e40ffb46c751e0e07ce5a.setIcon(icon_da1a5a3c13e048c7a7716be59ad47eb3);
+        
+    
+            marker_4fd7b73f2c6e40ffb46c751e0e07ce5a.bindTooltip(
+                `<div>
+                     DoubleTree by Hilton London Docklands Riverside
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b205de533ac24b4c8832495d9ef69ad5 = L.marker(
+                [51.5084195, 0.0253216],
+                {}
+            ).addTo(map_122752ec43e8426bbbc50626e53ddc6f);
+        
+    
+            var icon_a0762d888b2646d3b7bf4f1e352713f7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_b205de533ac24b4c8832495d9ef69ad5.setIcon(icon_a0762d888b2646d3b7bf4f1e352713f7);
+        
+    
+            marker_b205de533ac24b4c8832495d9ef69ad5.bindTooltip(
+                `<div>
+                     Good Hotel London
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f5baca5c244242d891094ae47ea45c25 = L.marker(
+                [48.2140659, 16.4217627],
+                {}
+            ).addTo(map_122752ec43e8426bbbc50626e53ddc6f);
+        
+    
+            var icon_49f32492ac2d4f15b5872e1955c01d87 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_f5baca5c244242d891094ae47ea45c25.setIcon(icon_49f32492ac2d4f15b5872e1955c01d87);
+        
+    
+            marker_f5baca5c244242d891094ae47ea45c25.bindTooltip(
+                `<div>
+                     Hilton Vienna Danube Waterfront
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_791e9b6b3ba14b1087801081bd86bf73 = L.marker(
+                [48.8427364, 2.3672171000000004],
+                {}
+            ).addTo(map_122752ec43e8426bbbc50626e53ddc6f);
+        
+    
+            var icon_af1a933b846b4bf2880714415ef451c9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_791e9b6b3ba14b1087801081bd86bf73.setIcon(icon_af1a933b846b4bf2880714415ef451c9);
+        
+    
+            marker_791e9b6b3ba14b1087801081bd86bf73.bindTooltip(
+                `<div>
+                     Hotel OFF Paris Seine
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_da8ccb5765b54462940de38eed2c5ca4 = L.marker(
+                [52.360006799999994, 4.9051643],
+                {}
+            ).addTo(map_122752ec43e8426bbbc50626e53ddc6f);
+        
+    
+            var icon_ff6ff2bcccf84d7380cde713f9d0d318 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_da8ccb5765b54462940de38eed2c5ca4.setIcon(icon_ff6ff2bcccf84d7380cde713f9d0d318);
+        
+    
+            marker_da8ccb5765b54462940de38eed2c5ca4.bindTooltip(
+                `<div>
+                     InterContinental Amstel Amsterdam
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_07c934208c72429182fa74dc432550db = L.marker(
+                [51.5024348, -0.0002497],
+                {}
+            ).addTo(map_122752ec43e8426bbbc50626e53ddc6f);
+        
+    
+            var icon_719c557a13fa45ba9dc687bd8b01e29c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_07c934208c72429182fa74dc432550db.setIcon(icon_719c557a13fa45ba9dc687bd8b01e29c);
+        
+    
+            marker_07c934208c72429182fa74dc432550db.bindTooltip(
+                `<div>
+                     Intercontinental London The O2
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_57eca8be23c14045a920bd02fa44d248 = L.marker(
+                [51.5016102, -0.11915450000000001],
+                {}
+            ).addTo(map_122752ec43e8426bbbc50626e53ddc6f);
+        
+    
+            var icon_1dab5de9916c47be93a5924b72d8e265 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_57eca8be23c14045a920bd02fa44d248.setIcon(icon_1dab5de9916c47be93a5924b72d8e265);
+        
+    
+            marker_57eca8be23c14045a920bd02fa44d248.bindTooltip(
+                `<div>
+                     London Marriott Hotel County Hall
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_761ebff4180b46b1b73e53fe510b9999 = L.marker(
+                [51.511879, -0.118552],
+                {}
+            ).addTo(map_122752ec43e8426bbbc50626e53ddc6f);
+        
+    
+            var icon_40eea97c6433427484f4ece0ca703238 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_761ebff4180b46b1b73e53fe510b9999.setIcon(icon_40eea97c6433427484f4ece0ca703238);
+        
+    
+            marker_761ebff4180b46b1b73e53fe510b9999.bindTooltip(
+                `<div>
+                     ME London by Melia
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7e902225ccce43588e99835909e46e30 = L.marker(
+                [51.5084036, -0.1067988],
+                {}
+            ).addTo(map_122752ec43e8426bbbc50626e53ddc6f);
+        
+    
+            var icon_c1fa518d4a2e4f9aa67ade07eceb3f7d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_7e902225ccce43588e99835909e46e30.setIcon(icon_c1fa518d4a2e4f9aa67ade07eceb3f7d);
+        
+    
+            marker_7e902225ccce43588e99835909e46e30.bindTooltip(
+                `<div>
+                     Mondrian London
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a09578dbc76a4e1f8d72a93a02806b82 = L.marker(
+                [51.491373700000004, -0.1214194],
+                {}
+            ).addTo(map_122752ec43e8426bbbc50626e53ddc6f);
+        
+    
+            var icon_d9a50fd8e3084a27be01bf7079133e5f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_a09578dbc76a4e1f8d72a93a02806b82.setIcon(icon_d9a50fd8e3084a27be01bf7079133e5f);
+        
+    
+            marker_a09578dbc76a4e1f8d72a93a02806b82.bindTooltip(
+                `<div>
+                     Park Plaza London Riverbank
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f037d2da7d004ab4b4fe7a80322913ea = L.marker(
+                [51.506557799999996, -0.004514],
+                {}
+            ).addTo(map_122752ec43e8426bbbc50626e53ddc6f);
+        
+    
+            var icon_010ab9c49d2345ca866ec92086282cd2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_f037d2da7d004ab4b4fe7a80322913ea.setIcon(icon_010ab9c49d2345ca866ec92086282cd2);
+        
+    
+            marker_f037d2da7d004ab4b4fe7a80322913ea.bindTooltip(
+                `<div>
+                     Radisson Blu Edwardian New Providence Wharf
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d9cdc7ec274541d7bad84fa0579bbabd = L.marker(
+                [52.371866499999996, 4.8873794],
+                {}
+            ).addTo(map_122752ec43e8426bbbc50626e53ddc6f);
+        
+    
+            var icon_754184d8d8ba45acbf19cf75d69c310d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_d9cdc7ec274541d7bad84fa0579bbabd.setIcon(icon_754184d8d8ba45acbf19cf75d69c310d);
+        
+    
+            marker_d9cdc7ec274541d7bad84fa0579bbabd.bindTooltip(
+                `<div>
+                     The Hoxton Amsterdam
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_99f135342c404363acf44c2a412872ef = L.marker(
+                [51.5054185, -0.12414990000000001],
+                {}
+            ).addTo(map_122752ec43e8426bbbc50626e53ddc6f);
+        
+    
+            var icon_2ec3bd07d1f94b9aa14d9fb6a6325f6a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_99f135342c404363acf44c2a412872ef.setIcon(icon_2ec3bd07d1f94b9aa14d9fb6a6325f6a);
+        
+    
+            marker_99f135342c404363acf44c2a412872ef.bindTooltip(
+                `<div>
+                     The Royal Horseguards
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_75a0182f373c44ac898d1d153b0431e3 = L.marker(
+                [51.5111922, -0.11940060000000001],
+                {}
+            ).addTo(map_122752ec43e8426bbbc50626e53ddc6f);
+        
+    
+            var icon_07602ac841354610a4e9a5756fa13ce1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_75a0182f373c44ac898d1d153b0431e3.setIcon(icon_07602ac841354610a4e9a5756fa13ce1);
+        
+    
+            marker_75a0182f373c44ac898d1d153b0431e3.bindTooltip(
+                `<div>
+                     The Savoy
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
