@@ -14,6 +14,8 @@ The dataset is the "515K Hotel Reviews Data in Europe" dataset on Kaggle (https:
 
 The dataset contains 515738 reviews for 1492 luxury hotels in Europe.
 
+Data files are not included this repository because of the large size. 
+
 ## Executive Summary
 
 In a very general way, recommender systems are algorithms aimed at suggesting relevant items to users (items being movies to watch, text to read, products to buy or anything else depending on industries).
@@ -78,4 +80,8 @@ With the increasing of applications in the Internet, the source of data is getti
 [1] Li, J.; Xu, L.; Tang, L.; Wang, S.; Li, L. Big data in tourism research: A literature review. Tour. Manag. 2018, 68, 301–323.
 
 [2] Qin Li 1,2, Shaobo Li 3,4,* , Sen Zhang 1,2, Jie Hu 5 and Jianjun Hu 3,A Review of Text Corpus-Based Tourism Big Data Mining
+
+
+
+
 
