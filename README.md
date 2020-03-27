@@ -51,6 +51,10 @@ In this project, we will be discussing content-based filtering of recommender en
 
 As part of the project, I have performed using Flask on Heroku. I have learnt on the steps to take when performing an end-to-end project. This includes re-factoring of codes into functions and classes so as to easier compliation when compiling of the code for Flask. In order to deploy a model, you will need to understand what you want to achieve and re-look at the code on how you could recode to achieve that.
 
+You may access the deployed site [here](https://hotelrecommender.herokuapp.com/). 
+
+
+
 ## Limitations and Recommendation
 
 In this project, I have refactored the attributes based on my own research. It will be more effective if domain knowledge are provided, this would allow me to understand what are the key attributes that would be of importance and weightage should be given.
