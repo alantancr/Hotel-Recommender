@@ -47,6 +47,30 @@ In this project, we will be discussing content-based filtering of recommender en
 3. Deployment
 4. Conclusion and Recommendation
 
+   
+
+## Approach
+
+I have reviewed the hotel attributes which were contributed by the user through their reviews. Firstly, i have done feature engineering and refactor attributes which are similar. 
+
+<img src="/Users/alantan/Documents/GA_Project/hotel_recommender/image/ss1.png" style="zoom:50%;" />
+
+<img src="image/ss2.png" style="zoom:50%;" />
+
+Secondly, based on the features, I have created a sparse matrix which entails the presence of the attributes based on the hotels. 
+
+<img src="image/ss3.png" style="zoom:50%" />
+
+Lastly, I have computed a matrix based on cosine-similarity rule and ranked the hotel in terms of its similarity.
+
+<img src="image/ss4.png" style="zoom:50%" />
+
+
+
+
+
+
+
 ## Deployment
 
 As part of the project, I have performed using Flask on Heroku. I have learnt on the steps to take when performing an end-to-end project. This includes re-factoring of codes into functions and classes so as to easier compliation when compiling of the code for Flask. In order to deploy a model, you will need to understand what you want to achieve and re-look at the code on how you could recode to achieve that.
