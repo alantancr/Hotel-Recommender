@@ -53,17 +53,17 @@ In this project, we will be discussing content-based filtering of recommender en
 
 I have reviewed the hotel attributes which were contributed by the user through their reviews. Firstly, i have done feature engineering and refactor attributes which are similar. 
 
-<img src="/Users/alantan/Documents/GA_Project/hotel_recommender/image/ss1.png" style="zoom:50%;" />
+<img src="image/ss1.png" style="zoom: 33%;" />
 
-<img src="image/ss2.png" style="zoom:50%;" />
+<img src="image/ss2.png" style="zoom: 33%;" />
 
 Secondly, based on the features, I have created a sparse matrix which entails the presence of the attributes based on the hotels. 
 
-<img src="image/ss3.png" style="zoom:50%" />
+<img src="image/ss3.png" style="zoom: 33%;" />
 
 Lastly, I have computed a matrix based on cosine-similarity rule and ranked the hotel in terms of its similarity.
 
-<img src="image/ss4.png" style="zoom:50%" />
+<img src="image/ss4.png" style="zoom: 33%;" />
 
 
 
